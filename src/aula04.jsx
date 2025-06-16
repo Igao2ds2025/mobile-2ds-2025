@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { View, Text, StylesSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { Image } from "react-native-web";
 
 class Aula04 extends Component {
@@ -21,7 +21,7 @@ class Aula04 extends Component {
 
 export default Aula04;
 
-const styles = StylesSheet.create({
+const styles = StyleSheet.create({
     img:{
         width: 100,
         height: 100,

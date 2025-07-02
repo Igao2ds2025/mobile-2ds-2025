@@ -5,8 +5,9 @@ class Aula05 extends Component {
     render() {
         return(
             <View style={styles.container}>
-                <Text>Estrutura Padrão!</Text>
-                <Text style={styles.texto}>Estrutura Padrão!</Text>
+            <View style={styles.caixa1}>1</View>
+            <View style={styles.caixa2}>2</View>
+            <View style={styles.caixa3}>3</View>
             </View>
         )
     }
@@ -17,13 +18,19 @@ export default Aula05;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor:'black',
-        alignItems:'center',
-        justifyContent:'center'
+        backgroundColor:'white',
     },
 
-    texto:{
-        color:'white',
-        fontSize:50,
+    caixa1:{
+        backgroudcolor:'red',
+        height: 50
+    },
+    caixa2: {
+        backgroundColor:'green',
+        flex: 1
+    },
+    caixa3: {
+        backgroundColor:'blue',
+        height: 50
     }
 })
